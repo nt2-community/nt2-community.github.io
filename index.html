@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="description"
+			content="Open community projects for NT² Vault — micro-apps catalog, docs, and more."
+		/>
+		<title>NT² Community</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/daisyui@5/dist/full.css"
+		/>
+		<script>
+			(function () {
+				const key = 'theme';
+				const stored = localStorage.getItem(key);
+				const theme =
+					stored === 'light' || stored === 'dark'
+						? stored
+						: window.matchMedia('(prefers-color-scheme: dark)').matches
+							? 'dark'
+							: 'light';
+				document.documentElement.setAttribute('data-theme', theme);
+			})();
+		</script>
+		<style>
+			body {
+				min-height: 100vh;
+			}
+		</style>
+	</head>
+	<body class="min-h-screen bg-base-200">
+		<div class="navbar bg-base-100 shadow-sm">
+			<div class="mx-auto flex w-full max-w-5xl items-center gap-4 px-4">
+				<a href="/" class="text-lg font-semibold text-primary">NT² Community</a>
+				<div class="flex-1"></div>
+				<button
+					id="theme-toggle"
+					type="button"
+					class="btn btn-ghost btn-sm btn-circle"
+					aria-label="Toggle theme"
+				></button>
+				<a
+					class="btn btn-outline btn-sm"
+					href="https://nt2.me"
+					rel="noopener noreferrer"
+					>Get Vault</a
+				>
+			</div>
+		</div>
+
+		<main class="mx-auto w-full max-w-5xl px-4 py-12">
+			<header class="mb-10">
+				<h1 class="text-4xl font-bold text-base-content">NT² Community</h1>
+				<p class="mt-3 max-w-2xl text-lg text-base-content/70">
+					Open-source projects around
+					<a class="link" href="https://nt2.me" rel="noopener noreferrer">NT² Vault</a>
+					— browse community micro-apps, contribute listings, and explore shared tooling.
+				</p>
+			</header>
+
+			<section>
+				<h2 class="mb-4 text-sm font-semibold uppercase tracking-wide text-base-content/60">
+					Projects
+				</h2>
+				<ul class="grid gap-4 sm:grid-cols-2">
+					<li>
+						<a
+							href="/micro-apps-catalog/"
+							class="card border border-base-300 bg-base-100 shadow-sm transition hover:border-primary"
+						>
+							<div class="card-body">
+								<h3 class="card-title text-base">Micro-apps catalog</h3>
+								<p class="text-sm text-base-content/70">
+									App Store–style catalog for Vault-compatible micro-apps. Browse signed
+									listings, search entries, and open PRs to publish your app.
+								</p>
+								<p class="text-xs text-base-content/50">nt2-community.github.io/micro-apps-catalog</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a
+							href="https://github.com/nt2-community"
+							class="card border border-base-300 bg-base-100 shadow-sm transition hover:border-primary"
+							rel="noopener noreferrer"
+						>
+							<div class="card-body">
+								<h3 class="card-title text-base">GitHub organization</h3>
+								<p class="text-sm text-base-content/70">
+									Source repositories, issues, and contribution workflows for all community
+									projects.
+								</p>
+								<p class="text-xs text-base-content/50">github.com/nt2-community</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</main>
+
+		<footer class="border-t border-base-300 bg-base-100 py-6 text-center text-sm text-base-content/60">
+			<p>
+				Maintained by the NT² Community org ·
+				<a class="link" href="https://github.com/nt2-community/nt2-community.github.io"
+					>Source on GitHub</a
+				>
+			</p>
+		</footer>
+
+		<script src="/theme.js"></script>
+	</body>
+</html>
