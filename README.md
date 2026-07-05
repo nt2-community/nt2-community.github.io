@@ -8,7 +8,7 @@ Project sites under the same domain (for example [`/micro-apps-catalog/`](https:
 
 ## Community chat
 
-Join the NT² Community on [Discord](https://discord.com/channels/1510213303576563712/1510213304159834175).
+Join the NT² Community on [Discord](https://discord.gg/K3YmGgwvV).
 
 ## Local preview
 
