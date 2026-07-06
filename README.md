@@ -1,25 +1,35 @@
-# nt2-community.github.io
+# NT² Community Hub
 
 Organization root site for [NT² Community](https://github.com/nt2-community), served at:
 
 **https://nt2-community.github.io/**
 
-Project sites under the same domain (for example [`/micro-apps-catalog/`](https://nt2-community.github.io/micro-apps-catalog/)) are deployed from their own repositories.
+SvelteKit static site with routes `/` (project cards) and `/contribute` (PR paths per repo).
 
-## Community chat
+| Project site | URL |
+|--------------|-----|
+| Micro-app catalog | https://nt2-community.github.io/micro-apps-catalog/ |
+| Developer docs | https://nt2-community.github.io/developer-docs/ |
+| Template catalog | https://nt2-community.github.io/category-templates-catalog/ |
 
-Join the NT² Community on [Discord](https://discord.gg/K3YmGgwvV).
-
-## Local preview
-
-Any static file server works, for example:
+## Local development
 
 ```bash
-npx serve .
+npm install
+npm run dev
 ```
 
-Open http://localhost:3000 (paths like `/micro-apps-catalog/` will not resolve locally unless you proxy or use the deployed site).
+Build and typecheck:
+
+```bash
+npm run build
+npm run check
+```
 
 ## Deploy
 
 Pushes to `main` deploy via GitHub Actions (`.github/workflows/deploy.yml`) to GitHub Pages.
+
+## Community chat
+
+Join [NT² Community on Discord](https://discord.gg/K3YmGgwvV).
