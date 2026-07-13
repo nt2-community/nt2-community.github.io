@@ -20,22 +20,22 @@ export const communityProjects: CommunityProject[] = [
 		title: 'Micro-apps catalog',
 		description:
 			'App Store–style catalog for Vault-compatible micro-apps. Browse signed listings and open PRs to publish your app.',
-		href: 'https://nt2-community.github.io/micro-apps-catalog/',
-		meta: 'nt2-community.github.io/micro-apps-catalog'
+		href: 'https://community.nt2.me/micro-apps-catalog/',
+		meta: 'community.nt2.me/micro-apps-catalog'
 	},
 	{
 		title: 'Developer docs',
 		description:
 			'Public author guides for micro-apps, .nt2tpl templates, and field packs — SDK, security, and catalog workflows.',
-		href: 'https://nt2-community.github.io/developer-docs/',
-		meta: 'nt2-community.github.io/developer-docs'
+		href: 'https://community.nt2.me/developer-docs/',
+		meta: 'community.nt2.me/developer-docs'
 	},
 	{
 		title: 'Template catalog',
 		description:
 			'Browse and download community .nt2tpl category templates for offline import in NT² Vault Settings.',
-		href: 'https://nt2-community.github.io/category-templates-catalog/',
-		meta: 'nt2-community.github.io/category-templates-catalog'
+		href: 'https://community.nt2.me/category-templates-catalog/',
+		meta: 'community.nt2.me/category-templates-catalog'
 	},
 	{
 		title: 'Discord',
