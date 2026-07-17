@@ -11,6 +11,7 @@ SvelteKit static site with routes `/` (project cards) and `/contribute` (PR path
 | Micro-app catalog | https://nt2-community.github.io/micro-apps-catalog/ |
 | Developer docs | https://nt2-community.github.io/developer-docs/ |
 | Template catalog | https://nt2-community.github.io/category-templates-catalog/ |
+| Product feedback (Issues) | https://github.com/nt2-community/product-feedback/issues |
 
 ## Local development
 

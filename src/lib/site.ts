@@ -38,6 +38,14 @@ export const communityProjects: CommunityProject[] = [
 		meta: 'community.nt2.me/category-templates-catalog'
 	},
 	{
+		title: 'Product feedback',
+		description:
+			'Public Issues and Discussions for sanitised bug reports and feature requests — not a support ticket portal.',
+		href: 'https://github.com/nt2-community/product-feedback/issues',
+		meta: 'github.com/nt2-community/product-feedback',
+		external: true
+	},
+	{
 		title: 'Discord',
 		description: 'Chat with authors and maintainers — questions, feedback, and catalog updates.',
 		href: 'https://discord.gg/K3YmGgwvV',
@@ -72,5 +80,10 @@ export const contributeRows: ContributeRow[] = [
 		topic: 'Hub landing copy',
 		repository: 'nt2-community/nt2-community.github.io',
 		url: 'https://github.com/nt2-community/nt2-community.github.io'
+	},
+	{
+		topic: 'Public bug or feature request',
+		repository: 'nt2-community/product-feedback',
+		url: 'https://github.com/nt2-community/product-feedback/blob/main/CONTRIBUTING.md'
 	}
 ];
