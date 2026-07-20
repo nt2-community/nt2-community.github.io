@@ -48,8 +48,8 @@ export const communityProjects: CommunityProject[] = [
 	{
 		title: 'Discord',
 		description: 'Chat with authors and maintainers — questions, feedback, and catalog updates.',
-		href: 'https://discord.gg/K3YmGgwvV',
-		meta: 'discord.gg/K3YmGgwvV',
+		href: 'https://discord.gg/MRRmbBe48',
+		meta: 'discord.gg/MRRmbBe48',
 		external: true
 	}
 ];

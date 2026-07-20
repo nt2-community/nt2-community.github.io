@@ -33,4 +33,4 @@ Pushes to `main` deploy via GitHub Actions (`.github/workflows/deploy.yml`) to G
 
 ## Community chat
 
-Join [NT² Community on Discord](https://discord.gg/K3YmGgwvV).
+Join [NT² Community on Discord](https://discord.gg/MRRmbBe48).
